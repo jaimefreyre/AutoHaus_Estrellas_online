@@ -1,0 +1,11 @@
+{
+"¿Cual es su grado de satisfaccion con el trato del Personal recibido en el concesionario?" : "estrellas",
+"¿Que satisfaccion encuentra con la organizacion del concesionario?" : "estrellas",
+"¿Que satisfaccion encuentra en general, con el asesoramiento recibido, por parte de los empleados del concesionario?" : "estrellas",
+"Teniendo en cuenta todos los aspectos de compra de su Vehiculo ¿Cual es su grado de satisfaccion General respectos de los servicios brindados por el concesionario?" : "estrellas",
+"¿Cual es su nivel de satisfaccion con respeto a la atencion y explicacion de los tramites administrativos y sus tiempos?" : "estrellas",
+"¿Le ofrecieron prueba de manejo?" : ["si", "no"],
+"¿Se contacto el asesor luego de la entrega?" : ["si", "no"],
+"¿Como calificaria el nivel de explicaciones y condiciones tecnicas y de limpieza de su 0km al momento de la entrega?" : "estrellas",
+"¿Volveria a comprar en Auto Haus?" : ["si", "no"]
+}

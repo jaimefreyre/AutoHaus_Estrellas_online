@@ -1,0 +1,170 @@
+    
+    html, body {
+      position: relative;
+      height: 100%;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-pagination-progressbar{
+      width: 40% !important;
+      height: 25px !important;
+      left: 30% !important;
+      border-radius: 12px !important;
+    }
+    
+    .swiper-pagination-progressbar-fill{
+      border-radius: 12px !important;
+    }
+    
+    .swiper-button-prev, .swiper-button-next {
+      top: 20%;
+    }
+
+    header{
+      width: 100%;
+      height: 150px;
+    }
+    .logo{
+      float: left;
+      left: 30%;
+      display: block;
+      width: 100px;
+      height: auto;
+      top: 22px;
+      position: relative;
+      z-index: 1111111111111;
+    }
+    .log2{
+      float: right;
+      right: 32%;
+      display: block;
+      width: 170px;
+      height: auto;
+      top: 45px;
+      position: relative;
+      z-index: 1111111111111;
+    }
+
+    @media (max-width: 575px) { 
+      
+    .logo{
+      float: left;
+      left: 15%;
+      display: block;
+      width: 80px;
+      height: auto;
+      top: 22px;
+      position: relative;
+      z-index: 1111111111111; 
+    }
+    .log2{
+      float: right;
+      right: 15%;
+      display: block;
+      width: 120px;
+      height: auto;
+      top: 45px;
+      position: relative;
+      z-index: 1111111111111;
+    }
+
+    .swiper-pagination-progressbar {
+      width: 70% !important;
+      left: 15% !important;
+      height: 8px !important;
+    }
+
+    #formulario{
+    position: absolute;
+    top: 8%;
+   }
+
+     }
+
+
+    .estrellasFont {
+    color: grey;
+    font-size: 3em;
+    }
+
+    .Sis {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    }
+
+    .estrellasFont:hover,
+    .estrellasFont:hover ~ .estrellasFont {
+    color: orange;
+    }
+    /*
+    input[type="radio"]:checked ~ label {
+    color: orange;
+    }
+
+    input[type="radio"]:checked + label {
+    color: grey;
+    }
+    */
+   
+   .opcionesSolo{
+    text-transform: capitalize;
+   }
+
+   .opcionSolo{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+   }
+
+   .tituloPregunta{
+    padding: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+   }
+
+   .agradecimiento{
+    text-align: center;
+   }
+
+   input{
+    border: none;
+    border-bottom: 1px solid black;
+   }
+
+   #formulario{
+    position: absolute;
+    top: 5%;
+   }
+
+   #primerB{
+        width: 90%;
+    left: 5%;
+    position: relative;
+   }
